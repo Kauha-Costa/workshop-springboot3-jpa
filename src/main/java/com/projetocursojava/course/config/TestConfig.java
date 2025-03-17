@@ -8,10 +8,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.entities.User;
-import com.educandoweb.course.repositories.OrderRepository;
-import com.educandoweb.course.repositories.UserRepository;
+import com.projetocursojava.course.entities.Order;
+import com.projetocursojava.course.entities.User;
+import com.projetocursojava.course.repositories.OrderRepository;
+import com.projetocursojava.course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
